@@ -3,10 +3,11 @@
 
 void read_only(int *arr ,int size){
     // arr[0] = 999;
-    for(int i = 0; i < size; i++){
-        printf("%d ", *(arr+i));
+    for(int i = 0; i < size-1; i++){
+        printf("%d", *(arr+i));
         printf("\n");
     }
+    printf("%d", *(arr+(size-1)));
     
 }
 
