@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    char* alphas[] = {"abs", "def", "hij"};
+    char* alphas[] = {"abc", "def", "hij"};
 
     int size = sizeof(alphas) / sizeof(alphas[0]);
 
